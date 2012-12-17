@@ -6,4 +6,4 @@ Paste the code you wrote in your IRB to generate the results, only include the r
 	⁃	(12*3)(a+b+34*(a+b))
 	3.	Create a variable result that holds the results of the adding the following together(that is result should be the summation of everything below) 
 	⁃	"j"+"a"
-	⁃	"mo"+heb"
+	⁃	"mo"+"heb"
