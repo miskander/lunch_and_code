@@ -2,8 +2,33 @@ Homework 12/17/2012
 Paste the code you wrote in your IRB to generate the results, only include the returned value if the question explicitly states so.
 
 	1.	Print to the screen 1000 times the work "Hello World"
+	"hello world"*1000
+
 	2.	If a=40 and b=30, Evaluate the the following equation
 	⁃	(12*3)(a+b+34*(a+b))
+	(12*3)*(a+b+34*(a+b))
+	=> 88200
+
 	3.	Create a variable result that holds the results of the adding the following together(that is result should be the summation of everything below) 
 	⁃	"j"+"a"
 	⁃	"mo"+heb"
+
+	irb(main):004:0> a="j"
+	=> "j"
+	irb(main):005:0> b="a"
+	=> "a"
+	irb(main):007:0> c="mo"
+	=> "mo"
+	irb(main):008:0> d="heb"
+	=> "heb"
+	irb(main):009:0> a+b+c+d
+	=> "jamoheb"
+	
+	irb(main):010:0> a="j"+"a"+"mo"+"heb"
+	=> "jamoheb"
+	irb(main):011:0> a
+	=> "jamoheb"
+	irb(main):012:0> a=
+	irb(main):013:0* a
+	=> "jamoheb"
+	irb(main):014:0> 
