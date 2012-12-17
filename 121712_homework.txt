@@ -1,9 +1,30 @@
 Homework 12/17/2012
 Paste the code you wrote in your IRB to generate the results, only include the returned value if the question explicitly states so.
 
-	1.	Print to the screen 1000 times the work "Hello World"
-	2.	If a=40 and b=30, Evaluate the the following equation
-	⁃	(12*3)(a+b+34*(a+b))
-	3.	Create a variable result that holds the results of the adding the following together(that is result should be the summation of everything below) 
-	⁃	"j"+"a"
-	⁃	"mo"+"heb"
+1. Print to the screen 1000 times the word "Hello World"
+--> "Hello World   "*1000
+
+
+
+2. If a=40 and b=30, Evaluate the the following equation  (12*3)(a+b+34*(a+b))
+>> a=40
+=> 40
+>> b=30
+=> 30
+>> (12*3)*(a+b+34*(a+b))
+=> 88200
+
+
+
+3. Create a variable result that holds the results of the adding the following  together(that is result should be the summation of everything below)  "j"+"a"  "mo"+"heb"
+
+>> result="j"+"a"+"mo"+"heb"
+=> "jamoheb"
+>> result
+=> "jamoheb"
+----------------
+>> result="j"+"a"+" mo"+"heb"
+=> "ja moheb"
+>> result
+=> "ja moheb"
+
